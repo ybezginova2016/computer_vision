@@ -36,3 +36,16 @@ Features of ImageNet:
 - dataset size is approximately 170 GB.
 
 ##### ImageNet can be downloaded from official [ImageNet website](https://www.image-net.org/), [tensorflow website](https://www.tensorflow.org/datasets/catalog/imagenet2012) or [kaggle](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/overview).
+
+## 5) MS COCO
+
+MS COCO (Microsoft Common Objects in COntext) is a dataset compiled by Microsoft, the main benchmark in the object detection task. It is used in situations where the model needs not only to define an object, but also to highlight it with a rectangle. Thanks to the markup, it also solves a more complex segmentation problem - it separates the object from the background, highlights in detail all its pixels in the image.
+
+Dataset features:
+
+- 328,000 images of different sizes with different options for splitting into training, validation and test parts;
+- Inside there are groups of images marked up in different ways. Some are designed for detection and segmentation of objects, 56,000 images of people have a skeleton and pose marked, and some of the images have key points and natural language captions.
+
+MS COCO is available on the [official website](https://cocodataset.org/), where you can also find additional information about the dataset.
+![image](https://user-images.githubusercontent.com/18750837/209570747-ff1287e8-cd87-4675-bb6e-df4a42b7e4e2.png)
+
