@@ -2,9 +2,9 @@
 
 # Computer Vision Algorithms
 
-## CV Main Datasets
+## Three CV Main Datasets
 
-### MNIST
+### 1) MNIST
 
 #### MNIST (Modified National Institute of Standards and Technology)
 MNIST is one of the first famous datasets for classification.
@@ -12,11 +12,11 @@ MNIST is one of the first famous datasets for classification.
 - Each images is sized as 28х28 pixel.
 - 60000 train images and 10000 validation images.
 
-### Fashion MNIST
+### 2) Fashion MNIST
 
 Fashion MNIST looks similar to MNIST, and contains 60000 and 10000 images sized 28х28х1; on the pictures there are images of clothes.
 
-### CIFAR (Canadian Institute For Advanced Research)
+### 3) CIFAR (Canadian Institute For Advanced Research)
 
 #### CIFAR is a dataset with small colored images for classification problem. 
 Dataset is presented into 2 versions: CIFAR-10 and CIFAR-100.
