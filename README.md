@@ -17,6 +17,14 @@ MNIST is one of the first famous datasets for classification.
 Fashion MNIST looks similar to MNIST, and contains 60000 and 10000 images sized 28х28х1; on the pictures there are images of clothes.
 ![image](https://user-images.githubusercontent.com/18750837/209570796-01b036c4-7caf-4220-9327-80dce36e7ccb.png)
 
+#### Download the datasets: https://github.com/zalandoresearch/fashion-mnist
+```
+features_train = np.load('/datasets/fashion_mnist/train_features.npy')
+target_train = np.load('/datasets/fashion_mnist/train_target.npy')
+features_test = np.load('/datasets/fashion_mnist/test_features.npy')
+target_test = np.load('/datasets/fashion_mnist/test_target.npy')
+```
+
 
 ## 3) CIFAR (Canadian Institute For Advanced Research)
 
